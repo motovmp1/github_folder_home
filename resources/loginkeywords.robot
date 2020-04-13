@@ -22,7 +22,7 @@ Click signin
     click button    ${btn_singIn}
 
 Verify sucessfull login
-    title should be  Find a Flight: Mercury Tours:
+    title should be     Find a Flight: Mercury Tours:
 
 
 close my browers

@@ -19,8 +19,9 @@ Logintest
     Enter username      ${user}
     sleep  1
     Enter Password      ${pwd}
+    sleep  1
     Click signin
-    sleep  6
+    sleep  20
     Verify sucessfull login
     sleep  3
     close my browers
